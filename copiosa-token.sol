@@ -352,7 +352,7 @@ contract BEP20Token is Context, IBEP20, Ownable {
     _name = "Copiosa Coin";
     _symbol = "COP";
     _decimals = 18;
-    _totalSupply = 500000000;
+    _totalSupply = 500000000000000000000000000;
     _balances[msg.sender] = _totalSupply;
 
     emit Transfer(address(0), msg.sender, _totalSupply);
